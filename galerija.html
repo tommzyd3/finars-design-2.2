@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galerija | FIN ARS d.o.o.</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="bg-slideshow"><div class="bg-slide active" style="background-image: url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&q=80')"></div></div>
+  <div class="overlay"></div>
+  <header class="header"><div class="container header-inner">
+    <a href="index.html" class="logo"><span class="logo-sub">center za arhitekturo</span><span class="logo-main">FINARS</span></a>
+    <nav class="nav" id="nav">
+      <a href="index.html">Domov</a><a href="projekti.html">Projekti</a><a href="galerija.html" class="active">Galerija</a>
+      <a href="info.html">Info</a><a href="zgodovina.html">Zgodovina</a><a href="novice.html">Novice</a><a href="kontakt.html">Kontakt</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Meni"><span></span><span></span><span></span></button>
+  </div></header>
+  <main>
+    <section class="page-header"><div class="container"><h1>Galerija arhitekture</h1><p>Inspiracija iz sodobne arhitekture – kliknite na sliko za povečavo (zoom).</p></div></section>
+    <section class="section"><div class="container">
+      <div class="gallery-grid">
+        <div class="gallery-item" data-zoom><img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800&q=80" alt="Sodobna arhitektura"></div>
+        <div class="gallery-item" data-zoom><img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80" alt="Arhitekturni detajl"></div>
+        <div class="gallery-item" data-zoom><img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?w=800&q=80" alt="Betonska arhitektura"></div>
+        <div class="gallery-item" data-zoom><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80" alt="Hiša z ravno streho"></div>
+        <div class="gallery-item" data-zoom><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80" alt="Vila"></div>
+        <div class="gallery-item" data-zoom><img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=80" alt="Luksuzna arhitektura"></div>
+        <div class="gallery-item" data-zoom><img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80" alt="Interier"></div>
+        <div class="gallery-item" data-zoom><img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&q=80" alt="Poslovna arhitektura"></div>
+        <div class="gallery-item" data-zoom><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&q=80" alt="Sodobni interier"></div>
+        <div class="gallery-item" data-zoom><img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80" alt="Pisarniški prostor"></div>
+        <div class="gallery-item" data-zoom><img src="https://images.unsplash.com/photo-1600573472592-401b489a3cdc?w=800&q=80" alt="Minimalistična arhitektura"></div>
+        <div class="gallery-item" data-zoom><img src="https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800&q=80" alt="Arhitekturni studio"></div>
+      </div>
+      <p style="text-align:center;margin-top:36px;color:#666;font-size:0.95rem;">Slike so iz javnih virov (Unsplash). Za projekte FIN ARS glejte <a href="projekti.html" style="color:#c41e3a;">Projekti</a>.</p>
+    </div></section>
+  </main>
+  <footer class="footer"><div class="container"><div class="footer-grid">
+    <div><div class="logo footer-logo"><span class="logo-sub">center za arhitekturo</span><span class="logo-main">FINARS</span></div><p>Podvine 36, 1410 Zagorje ob Savi</p></div>
+    <div><h4>Kontakt</h4><p>info@finars.si</p><p>03 566 05 46</p></div>
+    <div><h4>Povezave</h4><a href="projekti.html">Projekti</a><a href="info.html">Info</a><a href="novice.html">Novice</a></div>
+  </div><div class="footer-bottom"><p>© 2026 FIN ARS d.o.o.</p></div></div></footer>
+  <div class="lightbox" id="lightbox"><button class="lightbox-close" id="lightboxClose">&times;</button><img src="" alt="" id="lightboxImg"></div>
+  <script src="js/main.js"></script>
+</body>
+</html>
